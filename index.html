@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guna Murugesan – Frontend Developer building responsive, modern web applications." />
+  <meta name="keywords" content="frontend developer, React, HTML, CSS, JavaScript, portfolio" />
+  <meta name="author" content="Guna Murugesan" />
+  <title>Guna Murugesan | Frontend Developer</title>
+
+  <!-- Google Fonts: Distinctive pairing -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <!-- Phosphor Icons CDN -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================
+       NAVBAR
+  ======================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <!-- Logo / Brand -->
+      <a href="#hero" class="nav-logo">guna<span>.</span></a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="mailto:gunamurugesan04@gmail.com" class="nav-cta">Hire Me</a></li>
+      </ul>
+
+      <!-- Hamburger (Mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li><a href="mailto:gunamurugesan04@gmail.com" class="mobile-link highlight">Hire Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ========================
+       HERO SECTION
+  ======================== -->
+  <section class="hero" id="hero">
+    <!-- Decorative grid lines -->
+    <div class="hero-grid" aria-hidden="true">
+      <div class="grid-line"></div>
+      <div class="grid-line"></div>
+      <div class="grid-line"></div>
+      <div class="grid-line"></div>
+    </div>
+
+    <!-- Floating blobs -->
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="blob blob-2" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <!-- Label badge -->
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="hero-title">
+        <span class="title-line title-small">Hi, I'm</span>
+        <span class="title-line title-name">Guna<br/>Murugesan</span>
+      </h1>
+
+      <!-- Sub-title -->
+      <p class="hero-role">
+        <span class="role-tag">&lt;</span>Frontend Developer<span class="role-tag">/&gt;</span>
+      </p>
+
+      <!-- Tagline -->
+      <p class="hero-tagline">
+        Crafting responsive, pixel-perfect web experiences<br/>
+        that feel as good as they look.
+      </p>
+
+      <!-- CTAs -->
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">
+          <i class="ph ph-code"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="ph ph-paper-plane-tilt"></i> Contact Me
+        </a>
+      </div>
+
+      <!-- Scroll hint -->
+      <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        <span>scroll</span>
+      </div>
+    </div>
+
+    <!-- Hero image / avatar area -->
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-initials">GM</span>
+        </div>
+        <!-- Orbiting tech badges -->
+        <div class="orbit-badge ob-1">React</div>
+        <div class="orbit-badge ob-2">Python</div>
+        <div class="orbit-badge ob-3">CSS3</div>
+        <div class="orbit-badge ob-4">JS</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       ABOUT SECTION
+  ======================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+
+      <div class="about-grid">
+        <!-- Left: Text -->
+        <div class="about-text reveal">
+          <h2 class="section-title">Building the web,<br/><em>one component at a time.</em></h2>
+          <p>
+            I'm a Computer Science graduate from Jansons Institute of Technology with a passion for
+            building clean, efficient, and user-friendly web applications. I specialize in translating
+            designs into responsive, accessible interfaces.
+          </p>
+          <p>
+            Whether it's a drag-and-drop Kanban board or a pixel-perfect UI clone, I love bringing
+            ideas to life in the browser. I'm currently exploring full-stack development with
+            Python Flask on the backend.
+          </p>
+
+          <!-- Quick facts -->
+          <div class="about-facts">
+            <div class="fact">
+              <span class="fact-number">2+</span>
+              <span class="fact-label">Projects Built</span>
+            </div>
+            <div class="fact">
+              <span class="fact-number">70%</span>
+              <span class="fact-label">B.E. CGPA</span>
+            </div>
+            <div class="fact">
+              <span class="fact-number">5+</span>
+              <span class="fact-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Card -->
+        <div class="about-card reveal reveal-delay">
+          <div class="card-header">
+            <div class="card-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="card-title">profile.json</span>
+          </div>
+          <pre class="card-code"><code>{
+  <span class="key">"name"</span>: <span class="val">"Guna Murugesan"</span>,
+  <span class="key">"role"</span>: <span class="val">"Frontend Developer"</span>,
+  <span class="key">"location"</span>: <span class="val">"India"</span>,
+  <span class="key">"education"</span>: {
+    <span class="key">"degree"</span>: <span class="val">"B.E. CSE"</span>,
+    <span class="key">"college"</span>: <span class="val">"Jansons IT"</span>,
+    <span class="key">"year"</span>: <span class="val">"2021–2025"</span>
+  },
+  <span class="key">"openTo"</span>: <span class="val">"Opportunities"</span>,
+  <span class="key">"focus"</span>: [
+    <span class="val">"Responsive UI"</span>,
+    <span class="val">"Clean Code"</span>,
+    <span class="val">"User Experience"</span>
+  ]
+}</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       SKILLS SECTION
+  ======================== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title reveal">My Tech Stack</h2>
+      <p class="section-subtitle reveal">Technologies I work with to build modern web applications.</p>
+
+      <div class="skills-grid">
+
+        <!-- Frontend -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="ph ph-monitor"></i></div>
+          <h3>Frontend</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot" style="--c:#61DAFB"></span>React.js</li>
+            <li><span class="skill-dot" style="--c:#E34F26"></span>HTML5</li>
+            <li><span class="skill-dot" style="--c:#1572B6"></span>CSS3</li>
+            <li><span class="skill-dot" style="--c:#06B6D4"></span>Tailwind CSS</li>
+            <li><span class="skill-dot" style="--c:#F7DF1E"></span>JavaScript (ES6)</li>
+          </ul>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="ph ph-terminal-window"></i></div>
+          <h3>Backend</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot" style="--c:#3776AB"></span>Python</li>
+            <li><span class="skill-dot" style="--c:#000000"></span>Flask</li>
+            <li><span class="skill-dot" style="--c:#47A248"></span>REST API</li>
+          </ul>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="ph ph-database"></i></div>
+          <h3>Database</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot" style="--c:#4479A1"></span>MySQL</li>
+            <li><span class="skill-dot" style="--c:#003B57"></span>SQLite</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="ph ph-wrench"></i></div>
+          <h3>Tools</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot" style="--c:#F05032"></span>Git</li>
+            <li><span class="skill-dot" style="--c:#181717"></span>GitHub</li>
+            <li><span class="skill-dot" style="--c:#007ACC"></span>VS Code</li>
+            <li><span class="skill-dot" style="--c:#F2C811"></span>Power BI</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       PROJECTS SECTION
+  ======================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title reveal">Things I've Built</h2>
+      <p class="section-subtitle reveal">A selection of projects that showcase my skills and thinking.</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: JobTracker -->
+        <article class="project-card reveal">
+          <div class="project-header">
+            <div class="project-number">01</div>
+            <div class="project-links">
+              <a href="https://github.com/gunamurugesan04" target="_blank" rel="noopener" aria-label="GitHub repository" class="proj-link">
+                <i class="ph ph-github-logo"></i>
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Live demo" class="proj-link">
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-title">JobTracker</h3>
+          <p class="project-subtitle">Job Application Tracker</p>
+
+          <p class="project-desc">
+            A full-stack web app to manage job applications across hiring stages. Features an
+            interactive Kanban board with drag-and-drop, live stats dashboard, and real-time
+            search & filter across company, role, and location fields.
+          </p>
+
+          <div class="project-highlights">
+            <span><i class="ph ph-check-circle"></i> CRUD REST API</span>
+            <span><i class="ph ph-check-circle"></i> Kanban Board</span>
+            <span><i class="ph ph-check-circle"></i> Live Statistics</span>
+          </div>
+
+          <div class="project-tech">
+            <span>Python Flask</span>
+            <span>SQLite</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <!-- Project 2: Udemy Clone -->
+        <article class="project-card reveal reveal-delay">
+          <div class="project-header">
+            <div class="project-number">02</div>
+            <div class="project-links">
+              <a href="https://github.com/gunamurugesan04" target="_blank" rel="noopener" aria-label="GitHub repository" class="proj-link">
+                <i class="ph ph-github-logo"></i>
+              </a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Live demo" class="proj-link">
+                <i class="ph ph-arrow-square-out"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-title">Udemy Clone</h3>
+          <p class="project-subtitle">Learning Platform UI</p>
+
+          <p class="project-desc">
+            A faithful frontend clone of the Udemy platform built with pure HTML, CSS, and
+            vanilla JavaScript. Includes course previews, responsive navigation, grid layout,
+            pricing cards, hover animations, and icons.
+          </p>
+
+          <div class="project-highlights">
+            <span><i class="ph ph-check-circle"></i> Responsive Grid</span>
+            <span><i class="ph ph-check-circle"></i> Hover Animations</span>
+            <span><i class="ph ph-check-circle"></i> Pure CSS/JS</span>
+          </div>
+
+          <div class="project-tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- GitHub CTA -->
+      <div class="projects-cta reveal">
+        <a href="https://github.com/gunamurugesan04" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="ph ph-github-logo"></i> See More on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       CONTACT SECTION
+  ======================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">04 — Contact</div>
+      <h2 class="section-title reveal">Let's Work Together</h2>
+      <p class="section-subtitle reveal">
+        I'm currently open to new opportunities. Whether you have a project in mind
+        or just want to say hi — my inbox is always open!
+      </p>
+
+      <div class="contact-cards reveal">
+
+        <a href="mailto:gunamurugesan04@gmail.com" class="contact-card">
+          <div class="cc-icon"><i class="ph ph-envelope-simple"></i></div>
+          <div class="cc-info">
+            <span class="cc-label">Email</span>
+            <span class="cc-value">gunamurugesan04@gmail.com</span>
+          </div>
+          <i class="ph ph-arrow-right cc-arrow"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/gunamurugesan04" target="_blank" rel="noopener" class="contact-card">
+          <div class="cc-icon"><i class="ph ph-linkedin-logo"></i></div>
+          <div class="cc-info">
+            <span class="cc-label">LinkedIn</span>
+            <span class="cc-value">linkedin.com/in/gunamurugesan04</span>
+          </div>
+          <i class="ph ph-arrow-right cc-arrow"></i>
+        </a>
+
+        <a href="https://github.com/gunamurugesan04" target="_blank" rel="noopener" class="contact-card">
+          <div class="cc-icon"><i class="ph ph-github-logo"></i></div>
+          <div class="cc-info">
+            <span class="cc-label">GitHub</span>
+            <span class="cc-value">github.com/gunamurugesan04</span>
+          </div>
+          <i class="ph ph-arrow-right cc-arrow"></i>
+        </a>
+
+        <a href="tel:+919003410180" class="contact-card">
+          <div class="cc-icon"><i class="ph ph-phone"></i></div>
+          <div class="cc-info">
+            <span class="cc-label">Phone</span>
+            <span class="cc-value">+91 9003410180</span>
+          </div>
+          <i class="ph ph-arrow-right cc-arrow"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========================
+       FOOTER
+  ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">guna<span>.</span></span>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/gunamurugesan04" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="ph ph-github-logo"></i>
+          </a>
+          <a href="https://linkedin.com/in/gunamurugesan04" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="ph ph-linkedin-logo"></i>
+          </a>
+          <a href="mailto:gunamurugesan04@gmail.com" aria-label="Email">
+            <i class="ph ph-envelope-simple"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copy">
+        © 2025 Guna Murugesan. Designed & built with <i class="ph ph-heart" style="color:var(--accent)"></i> and lots of coffee.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
